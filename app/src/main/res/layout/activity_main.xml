@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/party" />
+
+    <TextView
+        android:id="@+id/hey_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HEY!Congratulations for your first step"
+        android:textSize="42sp"
+        android:textColor="@color/black"
+        android:layout_centerVertical="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep Going"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="100dp"
+        android:textSize="32sp"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
